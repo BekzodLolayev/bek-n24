@@ -372,9 +372,10 @@ display: flex;
   height: 53px;
   background-color: #eaeaea;
   text-align: center;
-  padding-top: 17px;
+  border: 0;
   border-radius: 10px;
   color: #000;
+  margin-bottom: 15px;
 }
 
 
