@@ -11,7 +11,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  min-height: 100%;
   padding: 0;
   margin: 0;
   font-family: "Rubik", "Arial", sans-serif;
@@ -434,4 +434,80 @@ display: flex;
 
 .world-news-basic-sitebar-img {
   border-radius: 15px;
+}
+
+.footer {
+  width: 100%;
+  height: 356px;
+  background-color: #7297ef;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-container{
+  width: 998px;
+  height: 276px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.footer-title {
+  font-weight: bold;
+  line-height: 28px;
+  color: #fff;
+}
+.footer-item {
+  display: flex;
+  justify-content: start;
+  border-bottom: 3px solid #cecece;
+  margin-bottom: 20px;
+}
+.footer-text {
+  width: 229px;
+  height: 95px;
+  margin-right: 203px;
+  font-size: 12px;
+  line-height: 19px;
+  color: #fff;
+}
+.footer-middle {
+  width: 167px;
+  height: 136px;
+  padding: 0;
+  margin-right: 100px;
+}
+.footer-link {
+  font-size: 16px;
+  list-style: none;
+  line-height: 32px;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  width: 224px;
+  height: 97px;
+  padding: 0;
+  font-size: 16px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between
+}
+.footer-bottom a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}
+.footer-bottom-link {
+  display: flex;
+  list-style: none;
+}
+
+.footer-social-network:not(:last-child) {
+  margin-right: 25px;
+}
+.footer-social-network-instagram {
+  border-radius: 6px;
 }
