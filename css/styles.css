@@ -345,7 +345,7 @@ display: flex;
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 17px;
-  margin-bottom: 10px;
+  margin-bottom: 17px;
   background-color: #f6f6f6;
 }
 .world-article-card-img {
@@ -380,7 +380,7 @@ display: flex;
   border: 0;
   border-radius: 10px;
   color: #000;
-  margin-bottom: 15px;
+  margin-bottom: 100px;
   text-decoration: none;
 }
  a.world-shov-more {
@@ -514,4 +514,63 @@ display: flex;
 }
 .footer-social-network-instagram {
   border-radius: 6px;
+}
+
+
+/* CONTACT */
+
+.container-contact {
+  max-width: 696px;
+  height: 431px;
+  margin-bottom: 100px;
+}
+
+.contact-name-phone-number{
+  display: flex;
+}
+.contact-name {
+  width: 343px;
+  height: 55px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.contact-phone-number {
+  width: 343px;
+  height: 55px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding-left: 20px;
+}
+.contact-email {
+  width: 696px;
+  height: 55px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.contact-textarea {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-left: 20px;
+  padding-top: 18px;
+}
+textarea {
+  display: block;
+  width: 696px;
+  height: 180px;
+  resize: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-button {
+  width: 145px;
+  height: 53px;
+  line-height: 19px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #7297ef;
 }

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>N-24</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+
+  <!-- SITE HEADER  -->
+  <header class="site-header">
+    <!-- SITE-HEADER-TOP  -->
+    <div class="site-header-top">
+      <div class="site-header-top-container container">
+        <!-- LOGO -->
+        <a class="site-header-logo" href="index.html">
+          <img class="site-header-logo-img" src="/img/logo-purple.svg" alt="N24 logo" width="264" height="28">
+        </a>
+
+        <!-- CURRENCY-RATES -->
+        <ul class="currency-rates">
+          <li class="currency-rates-item">
+            <b class="currency-rates-type">$</b>
+            <span class="currency-rates-value">10650.06</span>
+          </li>
+          <li class="currency-rates-item">
+            <b class="currency-rates-type">P</b>
+            <span class="currency-rates-value">146.08</span>
+          </li>
+        </ul>
+
+        <!-- GLOBAL-SEARCH-FORM -->
+        <form class="global-search-form" action="https://echo.htmlacademy.ru" method="GET">
+          <input class="global-search-form-input" type="search" name="search" placeholder="Поиск" aria-label="Поиск"
+            required>
+
+        </form>
+
+        <!-- LANG-TOGGLE -->
+        <div class="lang-toggle">
+          <a class="long-toggle-link long-toggle-link-active" href="index.html">УЗ</a>
+          <a class="long-toggle-link" href="index.html/ru">РУ</a>
+        </div>
+
+        <!-- SITE-HEADER-AUTH -->
+        <a class="button button-primary" href="#">Войти</a>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <!-- SITENAV -->
+      <nav class="sitenav">
+        <ul class="sitenav-list">
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Главное</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Интересное</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Экономика</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Политика</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Общество</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Технологии</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Спорт</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Культура</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Происшествия</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Наука</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main class="main-content">
+    <div class="container">
+
+      <div class="container-contact">
+        <h2>Напишите нам</h2>
+        <form action="https://echo.htmlacademy.ru" method="POST">
+         <div class="contact-name-phone-number">
+          <div>
+            <input class="contact-name" type="text" name="fullname" placeholder="Имя" required>
+          </div>
+          <div>
+            <input class="contact-phone-number" contact-phone-number type="tel" name="phone" placeholder="Номер телефона" required>
+          </div>
+         </div>
+          <div>
+            <input class="contact-email" type="email" name="e-mail" placeholder="Электронная почта" required>
+          </div>
+          <div>
+            <textarea class="contact-textarea" name="message" placeholder="Текст"></textarea>
+          </div>
+          <button class="contact-button" type="submit">Отправить</button>
+        </form>
+      </div>
+
+
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <h2 class="footer-title">NAMANGANLIKLAR 24</h2>
+      <div class="footer-item">
+        <p class="footer-text">Воспроизводство, копирование, использование информации с сайта «NAMANGANLIKLAR24.UZ»
+          возможно только с предварительного письменного разрешения редакции.
+        </p>
+        <ul class="footer-middle">
+          <li class="footer-link"><a href="">Информация о сайте</a></li>
+          <li class="footer-link"><a href="">Напишите нам</a></li>
+          <li class="footer-link"><a href="">Реклама</a></li>
+          <li class="footer-link"><a href="">Прислать новость</a></li>
+        </ul>
+        <ul class="footer-right">
+          <li class="footer-link"><a href="">Использование материалов</a></li>
+          <li class="footer-link"><a href="">Темы дня</a></li>
+          <li class="footer-link"><a href="">Наша команда</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <a href="">Наши <br> социальные сети</a>
+        <ul class="footer-bottom-link">
+          <li class="footer-social-network"><a href=""><img src="img/facebook.jpg" alt="" width="25" height="25"
+                srcset="img/facebook.jpg 1x, img/facebook@2x.jpg 2x"></a></li>
+          <li class="footer-social-network"><a href=""><img class="footer-social-network-instagram"
+                src="img/instagram.jpg" alt="" width="25" height="25"
+                srcset="img/instagram.jpg 1x, img/instagram@2x.jpg 2x">
+            </a></li>
+          <li class="footer-social-network"><a href=""><img src="img/telegram.png" alt="" width="25" height="25"></a>
+          </li>
+          <li class="footer-social-network"><a href=""><img src="img/youtube.jpg" alt="" width="25" height="25"
+                srcset="img/youtube.jpg 1x, img/youtube@2x.jpg 2x"></a></li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
