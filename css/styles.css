@@ -369,6 +369,7 @@ display: flex;
 }
 
 .world-shov-more {
+  display: block;
   font-family: Rubik;
   font-weight: 500;
   font-size: 16px;
@@ -380,8 +381,11 @@ display: flex;
   border-radius: 10px;
   color: #000;
   margin-bottom: 15px;
+  text-decoration: none;
 }
-
+ a.world-shov-more {
+  padding-top: 16px;
+ }
 
 /* WORLD-NEWS-BASIC */
 
