@@ -87,28 +87,43 @@
 
 
       <h2>Напишите нам</h2>
-      <form action="https://echo.htmlacademy.ru" method="POST">
+      <div class="contact-container">
         <div class="container-contact">
+
           <div class="contact-name-phone-number">
-            <div>
-              <input class="contact-name" type="text" name="fullname" placeholder="Имя" required>
+            <form action="https://echo.htmlacademy.ru" method="POST"></form>
+              <div>
+                <input class="contact-name" type="text" name="fullname" placeholder="Имя" required>
+              </div>
+              <div>
+                <input class="contact-phone-number" contact-phone-number type="tel" name="phone"
+                  placeholder="Номер телефона" required>
+              </div>
             </div>
             <div>
-              <input class="contact-phone-number" contact-phone-number type="tel" name="phone"
-                placeholder="Номер телефона" required>
+              <input class="contact-email" type="email" name="e-mail" placeholder="Электронная почта" required>
+            </div>
+            <div>
+              <textarea class="contact-textarea" name="message" placeholder="Текст"></textarea>
+            </div>
+            <div>
+              <button class="contact-button" type="submit">Отправить</button>
             </div>
           </div>
-          <div>
-            <input class="contact-email" type="email" name="e-mail" placeholder="Электронная почта" required>
-          </div>
-          <div>
-            <textarea class="contact-textarea" name="message" placeholder="Текст"></textarea>
-          </div>
-          <div>
-            <button class="contact-button" type="submit">Отправить</button>
-          </div>
+        </form>
+
+        <div class="contact-right">
+          <h3 class="contact-right-h">Электронная почта</h3>
+          <p class="contact-right-p">info@namanganliklar24.uz</p>
+          <hr>
+          <h3 class="contact-right-h">Номер телефона</h3>
+          <p class="contact-right-p">+998 88 522-54-76</p>
+          <hr>
+          <h3 class="contact-right-h">Адрес</h3>
+          <p class="contact-right-p">Ташкент, площадь Мустакиллик, 6 </p>
         </div>
-      </form>
+      </div>
+
     </div>
 
 
