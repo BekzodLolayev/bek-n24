@@ -613,3 +613,25 @@ hr {
   margin-bottom: 20px;
   border: 1px solid #D2D2D2;
 }
+
+/* ARTICLE */
+
+.article-form {
+  width: 797px;
+  height: 1287px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  background-color: #fff;
+}
+
+.article-form-link {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  margin-top: 30px;
+}
+.article-form-text {
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+}
