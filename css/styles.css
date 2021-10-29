@@ -218,7 +218,9 @@ img {
   flex-grow: 1;
   padding-top: 50px;
 }
-
+.main-content-form{
+  padding-top: 10px;
+}
 
 /* NEWS-GRID */
 .news-grid {
@@ -353,8 +355,9 @@ display: flex;
 }
 .form-news-grid {
   width: 393px;
-  grid-template: 207px;
+  height: 207px;
   margin-right: 10px;
+  margin: 0;
   padding: 20px 18px 15px 17px;
 }
 .world-article-card-img {
